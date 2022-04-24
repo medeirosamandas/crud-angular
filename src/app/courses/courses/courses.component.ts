@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./courses.component.scss'],
 })
 export class CoursesComponent implements OnInit {
-  courses: Course[] = [{ _id: '1', name: 'Angular', category: 'front-end' }];
+  courses: Course[] = [];
   displayedColumns = ['id', 'name', 'category'];
 
   constructor() {}
